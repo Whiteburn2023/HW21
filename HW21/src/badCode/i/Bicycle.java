@@ -1,6 +1,6 @@
 package badCode.i;
 
-public class Bicycle implements Transport {
+public class Bicycle  implements Acceleratable, Brakeable, Startable, Stopable{
     @Override
     public void start() {
         // запустить велосипед

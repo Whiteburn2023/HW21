@@ -1,6 +1,6 @@
 package badCode.i;
 
-public class Car implements Transport, NotVelo {
+public class Car implements Acceleratable, Brakeable, Honkable, Refueble, Startable, Stopable{
     @Override
     public void start() {
         // запустить автомобиль
