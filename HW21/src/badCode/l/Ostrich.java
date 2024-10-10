@@ -5,4 +5,5 @@ class Ostrich extends Bird {
     public void fly() {
         throw new UnsupportedOperationException("Страус не может лететь");
     }
+
 }

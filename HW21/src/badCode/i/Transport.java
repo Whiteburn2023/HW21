@@ -9,7 +9,4 @@ interface Transport {
 
     void brake();
 
-    void refuel();
-
-    void honk();
 }

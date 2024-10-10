@@ -6,6 +6,16 @@ class Shape {
     private double width;
     private double height;
 
+    public Shape() {
+    }
+
+    public Shape(String type, double radius, double width, double height) {
+        this.type = type;
+        this.radius = radius;
+        this.width = width;
+        this.height = height;
+    }
+
     public double calculateArea() {
         if (type.equals("circle")) {
             return Math.PI * radius * radius;

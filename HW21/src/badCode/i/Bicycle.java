@@ -21,13 +21,4 @@ public class Bicycle implements Transport {
         // замедлить велосипед
     }
 
-    @Override
-    public void refuel() {
-        throw new RuntimeException("Not implemented");
-    }
-
-    @Override
-    public void honk() {
-        throw new RuntimeException("Not implemented");
-    }
 }
